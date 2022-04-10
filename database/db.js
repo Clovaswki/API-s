@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const mongoURI ='mongodb://localhost/apiuser'
+const mongoURI = ''
 
 var connectionDB = mongoose.connect(mongoURI).then(() => {
     console.log('mongoDB connect...')
